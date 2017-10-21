@@ -6,14 +6,14 @@
 title: Blog
 subtitle: 个人博客
 description:
-author: Sui xinlei
+author: 隋鑫磊/笑斌/joshuasui
 language: cn
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://suixinlei.github.io/blog/
-root: /blog/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -40,8 +40,6 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
-  tab_replace:
   
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -72,7 +70,17 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: aloha
+
+sidebar:
+  bio: Programer / GAL lover / animate
+  avatar: /images/avatar.jpg
+  subtitle: 程序员
+  location: Hangzhou
+  social:
+    github: https://github.com/suixinlei
+    weibo: http://weibo.com/joshuasui
+    twitter: https://twitter.com/joshuasui
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
